@@ -1,0 +1,102 @@
+<!-- Wind Visualization Page
+    A descriptive title and heading tag.
+The plot/visualization itself for the selected comparison.
+A paragraph describing the plot and its significance.>
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+            <meata charset = "UTF-8">
+            <meta name="viewport" content="width=device-width,initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <title>Wind speed page</title>
+
+                <!--Bootstrap-->
+                <<!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"-->
+                <link rel="stylesheet"  type="text/css"  href="bootstrap.min.css">
+    <head>
+
+    <body>
+        <!--Navbar-->
+        <nav class = "navbar navbar-expand-lg navbar-light bg-light">
+            <div class = "container">
+                <a class = "navbar-brand text-black" href = "index.html">*Scary wind noices*</a>
+                <button class = "navbar-toggler" type = "button" data-toggler = "collapse" data-toggler = "#navbarNavDropdown" aria-controls = "#navbarNavDropdown" aria-expanded = "false" aria-label = "toggler navigation">
+                    <span class = "navbar-toggler-icon"></span>
+                </button>
+            
+                <div class = "collapse navbar-collapse" id="#navbarNavDropdown">
+                    <ul class = "navbar-nav ml-auto">
+                        <li class = "nav-item dropdown">
+                            <a class = "nav-link dropdown-toggle" href ="#" id = "navbarNavDropdownMenu" role = "button" data-toggle = "dropdown" aria-haspopup = "ture" aria-expanded = "false"> Plots</a>
+                            
+                            <div class = "dropdown-menu" aria-labelledby = "navbarNavDropdownMenu">
+                                <a class = "dropdown-item" href = "temperature.html">Temperature </a>
+                                <a class = "dropdown-item" href = "cloudiness.html">Cloudiness </a>
+                                <a class = "dropdown-item" href = "humidity.html">Humidity </a>
+                                <a class = "dropdown-item" href = "wind.html">Wind Speed </a>
+                            </div>
+                        </li>
+
+                        <li class = "nav-item">
+                            <a class = "nav-link" href = "comparison.html">Comparison page</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a class = "nav-link" href = "data.html">Data page</a>
+                        </li>
+
+                    </ul>
+                </div>
+            <div>
+        </nav>
+
+        
+        <!--Visualization content below so they can click on other pages-->
+        <div class "visualization content">
+            <div class = "row">
+                <div class = "col-md-8">
+                    <div class = "col-md-12">
+                    <h3>Wind Speed</h3>
+                    <hr>
+                    <img src = "Resources/assets/images/Fig4.png" width = "100%" alt = "cloudiness"
+                    <br>
+                    <p> This plot shows the change in wind speed as the latitude changes. As the latitude changes, the wind remains constant between intervals of 5-10mph.   </p>
+                    <p> Check out our other visualizations to see more interesting relationships with Latitude.  </p>
+                </div>
+            
+                    
+       
+       
+                <div class = "col-md-4">
+                    <div class = "col-md-12">
+                      <h3><Visualizations</h3>
+                       <hr>
+                     <div class = "row">
+                    
+                       <div class ="col-3 col-md-6">
+                             <a href = "temperature.html"><img src="Resources/assets/images/Fig1.png" width = "100%" alt = "temperature"></a>
+                         </div>
+
+                          <div class ="col-3 col-md-6">
+                           <a href = "humidity.html"><img src="Resources/assets/images/Fig2.png" width = "100%" alt = "humidity"></a>
+                         </div>
+
+                         <div class ="col-3 col-md-6">
+                              <a href = "cloudiness.html"><img src="Resources/assets/images/Fig3.png" width = "100%" alt = "cloudiness"></a>
+                         </div>
+
+                         <div class ="col-3 col-md-6">
+                               <a href = "wind.html"><img src="Resources/assets/images/Fig4.png" width = "100%" alt = "wind speed"></a>
+                         </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!--Bootstrap so the popdown menu works--> 
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <body>
+<html>

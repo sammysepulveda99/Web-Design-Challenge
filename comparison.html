@@ -1,0 +1,85 @@
+<!-- Comparison  Page
+    A "Comparisons" page that:
+
+Contains all of the visualizations on the same page so we can easily visually compare them.
+Uses a Bootstrap grid for the visualizations.
+
+The grid must be two visualizations across on screens medium and larger, and 1 across on extra-small and small screens.>
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+            <meata charset = "UTF-8">
+            <meta name="viewport" content="width=device-width,initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <title>Comparison page</title>
+
+                <!--Bootstrap-->
+                 <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"-->
+                 <link rel="stylesheet"  type="text/css"  href="bootstrap.min.css">
+    <head>
+
+    <body>
+        <!--Navbar-->
+        <nav class = "navbar navbar-expand-lg navbar-light bg-light">
+            <div class = "container">
+                <a class = "navbar-brand text-black" href = "index.html">Latitude</a>
+                <button class = "navbar-toggler" type = "button" data-toggler = "collapse" data-toggler = "#navbarNavDropdown" aria-controls = "#navbarNavDropdown" aria-expanded = "false" aria-label = "toggler navigation">
+                    <span class = "navbar-toggler-icon"></span>
+                </button>
+            
+                <div class = "collapse navbar-collapse" id="#navbarNavDropdown">
+                    <ul class = "navbar-nav ml-auto">
+                        <li class = "nav-item dropdown">
+                            <a class = "nav-link dropdown-toggle" href ="#" id = "navbarNavDropdownMenu" role = "button" data-toggle = "dropdown" aria-haspopup = "ture" aria-expanded = "false"> Plots</a>
+                            
+                            <div class = "dropdown-menu" aria-labelledby = "navbarNavDropdownMenu">
+                                <a class = "dropdown-item" href = "temperature.html">Temperature </a>
+                                <a class = "dropdown-item" href = "cloudiness.html">Cloudiness </a>
+                                <a class = "dropdown-item" href = "humidity.html">Humidity </a>
+                                <a class = "dropdown-item" href = "wind.html">Wind Speed </a>
+                            </div>
+                        </li>
+
+                        <li class = "nav-item">
+                            <a class = "nav-link" href = "comparison.html">Comparison page</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a class = "nav-link" href = "data.html">Data page</a>
+                        </li>
+
+                    </ul>
+                </div>
+            <div>
+        </nav>
+
+        <div class = "container content bg-white">
+            <h3>Comparison: Latitude vs. (Cloudiness, Temperature, Humidity, Wind Speed)</h3>
+            <hr>
+            <p> Choose any plot for detailed analysis:</p>
+            <div class = "row">
+                <div class = "col-md-6">
+                    <h3 class = "text-center"> vs. Temperature</h3>
+                    <a href = "temperature.html"><img width = "100%" src = "Resources/assets/images/Fig1.png"></a>
+                </div>
+                <div class = "col-md-6">
+                    <h3 class = "text-center"> vs. Humidity</h3>
+                    <a href = "humidity.html"><img width = "100%" src = "Resources/assets/images/Fig2.png"></a>
+                </div>
+            </div>
+            <br>
+            <div class = "row">
+                <div class = "col-md-6">
+                    <h3 class = "text-center"> vs. Wind Speed</h3>
+                    <a href = "wind.html"><img width = "100%" src = "Resources/assets/images/Fig4.png"></a>
+                </div>
+                <div class = "col-md-6">
+                    <h3 class = "text-center"> vs. Cloudiness</h3>
+                    <a href = "cloudiness.html"><img width = "100%" src = "Resources/assets/images/Fig3.png"></a>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+</html>
